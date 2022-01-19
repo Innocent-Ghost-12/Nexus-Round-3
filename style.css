@@ -47,7 +47,7 @@ html,body,.header {
 	/* background-image:url('giphy.gif'); */
 	
 	width: 600px;
-	height: 350px;
+	height: 100px;
 }
 
 
@@ -294,3 +294,26 @@ button{
     border-color: #e1e0ee;
     color: #101020;
 } */
+
+#button-container {
+    text-align: center;
+  }
+
+.btn-bt {
+	background-color: #2c3e50;
+	width: auto;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 2em;
+	margin: 2%;
+	border: 2px solid #fff;
+	transition:.3s;
+  }
+
+  .btn-bt:hover{
+	background: #fff;
+	color: #2b67cb;
+	transform:scale(1.1);
+	transition:background .25s, transform .5s,ease-in;
+	cursor: pointer;
+}
