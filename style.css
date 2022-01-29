@@ -2,7 +2,8 @@ html,body,.header {
 	margin: 0;
 	
 	/* background:#151320; */
-	 background:url('connections.gif');
+	 background:url('giphy.gif');
+	 
 	 background-attachment:fixed;
 	 background-repeat: no-repeat;
 	 background-size: cover;
